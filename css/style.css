@@ -1,0 +1,111 @@
+body {
+    background-color: var(--cor-fundo);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    height: 450px;
+    background-color: var(--cor-fundo-info);
+    border-radius: 10px;
+}
+
+.info {
+    padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--cor-texto);
+    font-weight: 500;
+}
+
+.title {
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    line-height: 34px;
+    color: var(--cor-title);
+    font-weight: 700;
+}
+
+.descrition {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--cor-texto);
+    font-weight: 500;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Fraunces", serif;
+}
+
+.price .preco-atual {
+    font-size: 32px;
+    color: var(--cor-verde-primaria);
+}
+
+.price .preco-antigo {
+    font-size: 14px;
+    color: var(--cor-texto);
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.btn-adiconar-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: var(--cor-verde-primaria);
+    border-radius: 10px;
+    transition: background-color 0.6s ease-in-out;
+}
+
+.btn-adiconar-carrinho:hover {
+    background-color: var(--cor-verde-hover);
+}
+
+p.add {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.img-carrinho {
+    width: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+    color: var(--cor-texto);
+    background-color: var( --cor-fundo-info);
+}

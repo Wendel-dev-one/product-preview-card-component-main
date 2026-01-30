@@ -1,0 +1,9 @@
+:root {
+    --cor-fundo: hsl(30, 38%, 92%);
+    --cor-fundo-info: hsl(0, 0%, 100%);
+    --cor-verde-primaria: hsl(158, 36%, 37%);
+    --cor-verde-hover: hsl(158, 42%, 18%);
+    --cor-title: hsl(212, 21%, 14%);
+    --cor-texto: hsl(228, 12%, 48%);
+
+}
