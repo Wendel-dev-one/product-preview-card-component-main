@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/responsive.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +23,10 @@
 <body>
   <main class="container">
     <div class="card">
-      <img class="img" src="/images/image-product-desktop.jpg" alt="Imagem de um perfume">
+      <picture>
+        <source srcset="images/image-product-mobile.jpg" media="(max-width: 376px)">
+        <img class="img" src="images/image-product-desktop.jpg" alt="Produto">
+      </picture>
 
       <div class="info">
         <p class="sub-title">Perfume</p>
@@ -44,13 +48,6 @@
       </div>
     </div>
   </main>
-
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Wendel Silva</a>.
-    </div>
-  </footer>
 </body>
 
 </html>

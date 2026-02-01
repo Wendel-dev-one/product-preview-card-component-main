@@ -1,0 +1,62 @@
+/* Responsive Design */
+
+@media (max-width: 376px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img{
+        width: 280px;
+        height: 275px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .info {
+        background-color: var(--cor-fundo-info);
+        width: 280px;
+        padding: 25px;
+        gap: 15px;
+        border-radius: 10px;
+    }
+
+    .sub-title {
+        font-size: 8px;
+    }
+
+    .title {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    .descrition {
+        font-size: 11.5px;
+        line-height: 18px;
+    }
+
+    .price .preco-atual {
+        font-size: 26px;
+    }
+
+    .price .preco-antigo {
+        font-size: 10px;
+    }
+
+    .btn-adiconar-carrinho {
+        padding: 10px;
+    }
+
+    p.add {
+        font-size: 12px;
+    }
+
+    .img-carrinho {
+        width: 10px;
+    }
+
+}
