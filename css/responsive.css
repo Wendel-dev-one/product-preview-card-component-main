@@ -8,55 +8,55 @@
         justify-content: center;
     }
 
-    .img{
-        width: 280px;
-        height: 275px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
+    .product-card__image{
+        width: 17.5rem; /* 280px */
+        height: 17.188rem; /* 275px */
+        border-top-left-radius: 0.625rem; /* 10px */
+        border-top-right-radius: 0.625rem; /* 10px */
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
     }
 
-    .info {
+    .product-card__details {
         background-color: var(--cor-fundo-info);
-        width: 280px;
-        padding: 25px;
-        gap: 15px;
-        border-radius: 10px;
+        width: 17.5rem; /* 280px */
+        padding: 1.563rem; /* 25px */
+        gap: 0.938rem; /* 15px */
+        border-radius: 0.625rem; /* 10px */
     }
 
-    .sub-title {
-        font-size: 8px;
+    .product-card__category {
+        font-size: 0.5rem; /* 8px */
     }
 
-    .title {
-        font-size: 25px;
-        line-height: 28px;
+    .product-card__title {
+        font-size: 1.563rem; /* 25px */
+        line-height: 1.75rem; /* 28px */
     }
 
-    .descrition {
-        font-size: 11.5px;
-        line-height: 18px;
+    .product-card__description {
+        font-size: 0.719rem; /* 11.5px */
+        line-height: 1.125rem; /* 18px */
     }
 
-    .price .preco-atual {
-        font-size: 26px;
+    .product-card__price--current {
+        font-size: 1.625rem; /* 26px */
     }
 
-    .price .preco-antigo {
-        font-size: 10px;
+    .product-card__price--old {
+        font-size: 0.625rem; /* 10px */
     }
 
-    .btn-adiconar-carrinho {
-        padding: 10px;
+    .product-card__add-to-cart {
+        padding: 0.625rem; /* 10px */
     }
 
-    p.add {
-        font-size: 12px;
+    .product-card__add-label {
+        font-size: 0.75rem; /* 12px */
     }
 
-    .img-carrinho {
-        width: 10px;
+    .product-card__cart-icon {
+        width: 0.625rem; /* 10px */
     }
 
 }
